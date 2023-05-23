@@ -35,6 +35,12 @@ export class OrderComponent implements OnInit{
     this.Total = this.SubTotal + this.TaxAmount;
   }
 
+  removeItem(index: number){
+    //console.log('removed ' + this.Items.splice(index, 1));
+    this.Items.splice(index, 1);
+    
+  }
+
   saveButton(){
 
   }
