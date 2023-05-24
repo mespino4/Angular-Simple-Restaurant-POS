@@ -46,7 +46,7 @@ export class OrderComponent implements OnInit{
   }
 
   printButton(){
-
+    window.print();
   }
 
   processButton(){
