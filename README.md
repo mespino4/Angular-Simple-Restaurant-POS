@@ -1,5 +1,6 @@
 # Angular Simple Restaurant Point Of Sale
 Simple point of sale system made in Angular 16
+try it -> https://melyespinofl96.github.io/Angular-Simple-Restaurant-POS/
 
 ## Technologies
 Angular 16 & Tailwind CSS
