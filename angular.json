@@ -91,14 +91,11 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "ccfe9598-756c-4f5d-bc89-675c20c7ae28"
   }
 }
