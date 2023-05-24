@@ -6,3 +6,5 @@ Angular 16 & Tailwind CSS
 ![Angular logo](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/Angular-Logo.png?raw=true)
 ![Tailwind CSS logo](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/Tailwind-CSS-Logo.png?raw=true)
 
+## Features
+Use Buttons to switch food category
