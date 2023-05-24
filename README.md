@@ -8,3 +8,10 @@ Angular 16 & Tailwind CSS
 
 ## Features
 Use Buttons to switch food category
+![Screenshot](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/screenshots/Screenshot%201.png)
+![Screenshot](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/screenshots/Screenshot%202.png)
+![Screenshot](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/screenshots/Screenshot%203.png)
+
+### Print Invoice
+Use Print Button to print the invoice
+![Screenshot](https://github.com/melyespinofl96/Angular-Simple-Restaurant-POS/blob/master/screenshots/Screenshot%204.png)
