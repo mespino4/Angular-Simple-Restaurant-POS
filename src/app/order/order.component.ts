@@ -7,6 +7,9 @@ import { Item } from '../models/item';
   styleUrls: ['./order.component.css']
 })
 export class OrderComponent implements OnInit{
+
+  /*The folowing booleans are used to turn off 
+  the the sfood category toggles*/
   drinks = true;
   burgers = false;
   sides = false;
@@ -14,18 +17,22 @@ export class OrderComponent implements OnInit{
   desserts = false;
   kids = false;
 
-  Name: string = '';
-  Items: Item[] = [];
-  TaxAmount: number = 0.00;
-  SubTotal: number = 0.00;
-  Total: number = 0.00;
+  /*The following variables are properties for the invoice*/
+  Name: string = '';        //String for the name of the customer
+  Items: Item[] = [];       //This array is for the list of items
+  TaxAmount: number = 0.00; //This is for the total tax of the subtotal
+  SubTotal: number = 0.00;  //This is for the price of all items without tax
+  Total: number = 0.00;     //This is for the price of all items with tax included
 
   constructor(){}
 
+  /*When the application starts up it will always start with
+  the Drinks category open */
   ngOnInit(): void {
     this.drinksToggle();
   }
 
+  /*Adds item to the invoice */
   addItem(name: string, price: number): void {
     const taxRate: number = 0.0625;
 
@@ -35,24 +42,23 @@ export class OrderComponent implements OnInit{
     this.Total = this.SubTotal + this.TaxAmount;
   }
 
+  /*Removes the item from the invoice*/
   removeItem(index: number){
-    //console.log('removed ' + this.Items.splice(index, 1));
     this.Items.splice(index, 1);
     
   }
 
-  saveButton(){
+  saveButton(){}
 
-  }
-
+  /*Prints the invoice*/
   printButton(){
     window.print();
   }
 
-  processButton(){
-    
-  }
+  processPaymentButton(){}
 
+
+  /*The following toggles to switch to a new food category*/
   drinksToggle(){
     this.drinks = true;
     this.burgers = false;
