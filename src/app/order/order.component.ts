@@ -58,7 +58,7 @@ export class OrderComponent implements OnInit{
   processPaymentButton(){}
 
 
-  /*The following toggles to switch to a new food category*/
+  /*The following toggles are used to switch to a new food category*/
   drinksToggle(){
     this.drinks = true;
     this.burgers = false;
